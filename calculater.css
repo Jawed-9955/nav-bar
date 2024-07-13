@@ -1,0 +1,152 @@
+ 
+ .outer{
+    height: 31rem;
+    width: 20rem;
+    background-color:#142f44;
+    background:linear-gradient(#142f44,#a2bbcf);
+    position:absolute;
+    left:40%;
+    top:100px;
+    border-radius: 0.5rem;
+    border:1px solid rgb(22, 69, 4);
+    box-shadow: 2px 4px 8px;
+    /* opacity:0.7; */
+    
+    
+}
+.upper-nav{
+    width:100%;
+    height:5%;
+    border-radius:0.5rem;
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding:1rem;
+    color:white;
+    
+}
+
+.upper-bar2{
+    width:100%;
+    height:5%;
+    border-radius:0.5rem;
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding:1rem;
+    color:white;
+
+}
+#cal{
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    color:white;
+}
+img{
+    height:40%;
+    margin-bottom: 2rem;
+    
+}
+
+.icons{
+    margin-right:3rem;
+    width:100%
+}
+i{
+    /* margin-left:3rem;  */
+    margin-bottom:2rem;
+}
+#minus{
+    margin-left:6rem;
+   font-size:small;
+   opacity: 0.7;
+}
+#square{
+    margin-left:2rem;
+    font-size:small;
+    opacity: 0.7;
+   
+}
+#xmark{
+    margin-left:2rem;
+    font-size:small;
+    opacity: 0.7;
+}
+#minus:hover{
+    opacity:1;
+}
+#square:hover{
+    opacity:1;
+}
+#xmark:hover{
+    opacity:1;
+}
+
+h2{
+    margin-left:1rem;
+    margin-bottom:3.2rem;
+
+    
+}
+#refresh{
+    margin-left:9rem;
+}
+.cal-screen{
+    height:13%;
+    width:99%;
+    border:3px solid white;
+    border-radius: 0.5rem;
+    color:white;
+}
+h1{
+    font-weight: 700;
+    margin-left:90%;
+    font-size:xx-large;
+}
+
+.operators-nav{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    padding:0.1rem;
+    width:99%;
+    height:10%;
+   
+    
+}
+
+.buttons{
+    width:4.5rem;
+    height:3rem;
+    border-radius:0.5rem;
+    margin-top:0.2rem;
+    background-color:#a2bbcf;
+    /* padding-top:0.5rem; */
+}
+.buttons i{
+    align-items:center;
+    margin-top:1rem;
+}
+.buttons:active{
+    background-color: #142f44;
+    color:#fff;
+}
+.button:hover .stars{
+    display:block;
+    filter:drop-shadow(0 0 10px #fffdef);
+}
+
+
+#num{
+    font-weight:900;
+    background-color:#d3e5f3;
+}
+
+#num:active{
+    background-color: #142f44;
+    color:#fff;
+    background:linear-gradient(#142f44,#fff);
+}
+
